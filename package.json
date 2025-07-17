@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "commit": "commit",
-    "lint": "eslint .",
+    "lint": "eslint . --fix && prettier --write .",
     "prepare": "husky"
   },
   "devDependencies": {
@@ -15,7 +15,9 @@
     "@commitlint/types": "^19.8.1",
     "@eslint/js": "^9.31.0",
     "eslint": "^9.31.0",
+    "eslint-config-prettier": "^10.1.5",
     "husky": "^9.1.7",
+    "prettier": "^3.6.2",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.37.0"
   }
