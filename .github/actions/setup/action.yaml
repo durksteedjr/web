@@ -1,0 +1,14 @@
+name: setup
+
+runs:
+  using: composite
+
+  steps:
+    - uses: actions/setup-node@v4
+      with:
+        cache: "pnpm"
+        node-version: 24
+    - uses: pnpm/action-setup@v4
+      with:
+        run_install: true
+        version: 10
