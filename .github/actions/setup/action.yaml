@@ -12,3 +12,4 @@ runs:
         cache: "pnpm"
         node-version: 24
     - run: pnpm install
+      shell: bash
