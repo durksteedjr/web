@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "commit": "commit",
-    "lint": "eslint . --fix && prettier --write .",
-    "prepare": "husky"
+    "commit": "pnpm commit",
+    "lint": "pnpm eslint . --fix && pnpm prettier --write .",
+    "prepare": "pnpm husky"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
