@@ -2,6 +2,8 @@
 .env*
 .gitignore
 .husky/
+.npmrc
 .prettierignore
 .turbo/
+@tools/drizzle/drizzle
 pnpm-lock.yaml
