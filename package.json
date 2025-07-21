@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "turbo clean",
     "commit": "commit",
-    "dev": "turbo dev",
+    "dev": "pnpm --filter @workspace/scripts dev",
     "generate": "pnpm --filter @tools/drizzle generate",
     "lint": "eslint . --fix && prettier --write .",
     "migrate": "pnpm --filter @tools/drizzle migrate",
