@@ -12,5 +12,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: ./.github/actions/setup
-      - run: pnpm eslint .
+      - run: pnpm eslint . && pnpm prettier --check .
         shell: bash
