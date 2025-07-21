@@ -4,10 +4,14 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "clean": "turbo clean",
     "commit": "commit",
     "dev": "turbo dev",
+    "generate": "pnpm --filter @tools/drizzle generate",
     "lint": "eslint . --fix && prettier --write .",
-    "prepare": "husky"
+    "migrate": "pnpm --filter @tools/drizzle migrate",
+    "prepare": "husky",
+    "typecheck": "turbo typecheck"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",

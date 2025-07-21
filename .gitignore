@@ -1,5 +1,7 @@
+*.sh
 .DS_Store
 .env
 .husky/_/
 .turbo/
 node_modules/
+pnpm-lock.yaml
