@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "commit": "commit",
+    "dev": "turbo dev",
     "lint": "eslint . --fix && prettier --write .",
     "prepare": "husky"
   },
