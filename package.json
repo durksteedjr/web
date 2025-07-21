@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "commit": "commit",
-    "lint": "eslint . --fix && prettier --write ."
+    "lint": "eslint . --fix && prettier --write .",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
@@ -14,6 +15,7 @@
     "@eslint/js": "^9.31.0",
     "eslint": "^9.31.0",
     "eslint-config-prettier": "^10.1.8",
+    "husky": "^9.1.7",
     "lint-staged": "^16.1.2",
     "prettier": "^3.6.2",
     "prettier-plugin-packagejson": "^2.5.19",

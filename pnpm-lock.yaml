@@ -26,6 +26,9 @@ importers:
       eslint-config-prettier:
         specifier: ^10.1.8
         version: 10.1.8(eslint@9.31.0(jiti@2.4.2))
+      husky:
+        specifier: ^9.1.7
+        version: 9.1.7
       lint-staged:
         specifier: ^16.1.2
         version: 16.1.2
@@ -644,6 +647,11 @@ packages:
   has-flag@4.0.0:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
     engines: {node: '>=8'}
+
+  husky@9.1.7:
+    resolution: {integrity: sha512-5gs5ytaNjBrh5Ow3zrvdUUY+0VxIuWVL4i9irt6friV+BqdCfmV11CQTWMiBYWHbXhco+J1kHfTOUkePhCDvMA==}
+    engines: {node: '>=18'}
+    hasBin: true
 
   iconv-lite@0.4.24:
     resolution: {integrity: sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==}
@@ -1890,6 +1898,8 @@ snapshots:
   graphemer@1.4.0: {}
 
   has-flag@4.0.0: {}
+
+  husky@9.1.7: {}
 
   iconv-lite@0.4.24:
     dependencies:
