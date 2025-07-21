@@ -1,0 +1,17 @@
+{
+  "name": "@workspace/scripts",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "clean": "bash scripts/clean.sh",
+    "dev": "bun src/scripts/dev.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.15",
+    "@types/prompts": "^2.4.9",
+    "prompts": "^2.4.2",
+    "typescript": "^5.8.3"
+  }
+}
