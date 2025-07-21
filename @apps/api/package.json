@@ -1,0 +1,19 @@
+{
+  "name": "@apps/api",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "clean": "bash scripts/clean.sh",
+    "dev": "wrangler dev",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@tools/drizzle": "workspace:*",
+    "hono": "^4.8.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "wrangler": "^4.25.0"
+  }
+}

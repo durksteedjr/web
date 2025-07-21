@@ -4,7 +4,7 @@ import tseslint from "typescript-eslint";
 
 const config = tseslint.config(
   {
-    ignores: ["**/node_modules"],
+    ignores: ["**/node_modules", "**/.turbo", "**/.wrangler"],
   },
   eslint.configs.recommended,
   tseslint.configs.strict,

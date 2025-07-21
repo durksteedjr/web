@@ -21,6 +21,12 @@ const dev = async () => {
 
   const { values }: { values: string[] } = await prompts({
     choices: [
+      ...getWorkspacePackages({ workspace: "apps" }).map(
+        (workspacePackage) => ({
+          title: workspacePackage,
+          value: workspacePackage,
+        }),
+      ),
       ...getWorkspacePackages({ workspace: "services" }).map(
         (workspacePackage) => ({
           title: workspacePackage,

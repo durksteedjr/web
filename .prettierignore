@@ -1,9 +1,11 @@
 .DS_Store
+.dev.vars*
 .env*
 .gitignore
 .husky/
 .npmrc
 .prettierignore
 .turbo/
+.wrangler/
 @tools/drizzle/drizzle
 pnpm-lock.yaml
