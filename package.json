@@ -3,6 +3,13 @@
     "version": "0.0.0",
     "private": true,
     "type": "module",
-    "packageManager": "pnpm@10.0.0"
+    "packageManager": "pnpm@10.0.0",
+    "scripts": {
+        "commit": "commit"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^19.8.1",
+        "@commitlint/config-conventional": "^19.8.1",
+        "@commitlint/prompt-cli": "^19.8.1"
+    }
 }
-  
