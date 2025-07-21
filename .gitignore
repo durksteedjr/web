@@ -1,3 +1,5 @@
 .DS_Store
+.env
 .husky/_/
+.turbo/
 node_modules/

@@ -1,0 +1,9 @@
+{
+  "name": "@services/postgres",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "docker compose up -d"
+  }
+}
