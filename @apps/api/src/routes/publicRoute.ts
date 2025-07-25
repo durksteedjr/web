@@ -1,8 +1,9 @@
-import { getDb } from "@tools/drizzle";
 import { Hono } from "hono";
 
+import { middlewareDb } from "../middleware/middlewareDb";
+
 export const publicRoute = new Hono()
-  .get("/status", (context) => context.json({ status: "ok" }, 200))
+  .use("*", middlewareDb)
   .get("/travel", async (context) =>
-    context.json(await getDb(context.env).query.travel.findMany()),
+    context.json(await context.var.db?.query.travel.findMany(), 200),
   );

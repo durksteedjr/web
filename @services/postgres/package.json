@@ -4,6 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "docker compose up -d"
+    "clean": "bash scripts/clean.sh",
+    "dev": "docker compose up -d",
+    "down": "docker compose down"
   }
 }

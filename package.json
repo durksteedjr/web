@@ -7,10 +7,13 @@
     "clean": "turbo clean",
     "commit": "commit",
     "dev": "pnpm --filter @workspace/scripts dev",
+    "down": "turbo down",
+    "env": "pnpm run --filter @workspace/scripts env",
     "generate": "pnpm --filter @tools/drizzle generate",
     "lint": "eslint . --fix && prettier --write .",
     "migrate": "pnpm --filter @tools/drizzle migrate",
     "prepare": "husky",
+    "seed": "turbo seed",
     "typecheck": "turbo typecheck"
   },
   "devDependencies": {

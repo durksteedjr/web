@@ -4,7 +4,11 @@ import tseslint from "typescript-eslint";
 
 const config = tseslint.config(
   {
-    ignores: ["**/node_modules", "**/.turbo", "**/.wrangler"],
+    ignores: [
+      "**/node_modules",
+      "**/.turbo",
+      "@tools/drizzle/src/db/schema/betterAuth.ts",
+    ],
   },
   eslint.configs.recommended,
   tseslint.configs.strict,

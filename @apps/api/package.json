@@ -5,15 +5,16 @@
   "type": "module",
   "scripts": {
     "clean": "bash scripts/clean.sh",
-    "dev": "wrangler dev",
+    "dev": "bun --watch src/index.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@hono/node-server": "^1.17.1",
+    "@tools/better-auth": "workspace:*",
     "@tools/drizzle": "workspace:*",
     "hono": "^4.8.5"
   },
   "devDependencies": {
-    "typescript": "^5.8.3",
-    "wrangler": "^4.25.0"
+    "typescript": "^5.8.3"
   }
 }
