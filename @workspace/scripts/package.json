@@ -6,6 +6,7 @@
   "scripts": {
     "clean": "bash scripts/clean.sh",
     "dev": "bun src/scripts/dev.ts",
+    "env": "bash scripts/env.sh",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {

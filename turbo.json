@@ -8,7 +8,13 @@
       "cache": false,
       "persistent": true
     },
+    "down": {
+      "cache": false
+    },
     "lint": {
+      "cache": false
+    },
+    "seed": {
       "cache": false
     },
     "typecheck": {
