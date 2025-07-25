@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true
+  },
+  "exclude": ["node_modules", ".turbo"],
+  "include": ["**/*.ts", "**/*.tsx"]
+}
